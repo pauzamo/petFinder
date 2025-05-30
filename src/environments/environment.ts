@@ -32,17 +32,9 @@
 
 export const environment = {
   production: false,
+  apiUrl: 'https://dog.ceo/api/',
 
-  // Firebase config (por si queremos usar Firebase para algo)
-  firebaseConfig: {
-    apiKey: "AIzaSyDKMSKUgk5AxCULbmFQwid7_4S4Ngq5LMg",
-    authDomain: "petfinder-5b347.firebaseapp.com",
-    projectId: "petfinder-5b347",
-    storageBucket: "petfinder-5b347.firebasestorage.app",
-    messagingSenderId: "918642641494",
-    appId: "1:918642641494:web:99e5e8b3b3ea85f8fb49f7",
-    measurementId: "G-E8SW5YN8XL"
-  },
+
 
   // Cognito config para auth/login
   cognito: {
